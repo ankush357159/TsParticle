@@ -2,4 +2,4 @@
 
 # Getting Started with Create React App
 
-This demo was configured with [](https://vincentgarreau.com/particles.js/#snow).
+This demo was configured with [www.vincentgarreau.com](https://vincentgarreau.com/particles.js/#snow).
