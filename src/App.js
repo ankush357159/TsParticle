@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import ParticleBackground from "./components/ParticleBackground";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ backgroundColor: "#3850d9" }}>
+      <ParticleBackground />
+      <div style={{ paddingTop: "25%", paddingBottom: "25%" }}>
+        <h1 style={{ textAlign: "center", color: "#FFF" }}>TsParticle </h1>
+      </div>
     </div>
   );
 }
